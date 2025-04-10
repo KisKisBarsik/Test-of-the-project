@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom PCs</title>
+    <link rel="shortcut icon" href="./Icons/logo2.png">
+    <link rel="stylesheet" href="./CSS/style9.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="navColumn">
+
+                <div class="navText">
+                
+                    <a href="./index.html" class="navA n1">Home</a>
+                    <a href="./index6.html" class="navA n2">About</a>
+                    <a href="./index2.html" class="navA n3">Services</a>
+                    <a href="./index7.html" class="navA n4">Purchases</a>
+                    <a href="./index8.html" class="navA n5">Contact</a>
+
+                </div>
+
+
+                
+                <div class="hamburgerMenu">
+
+                    <span class="hamburgerMenuItem"></span>
+                    <span class="hamburgerMenuItem"></span>
+                    <span class="hamburgerMenuItem"></span>
+                    <span class="hamburgerMenuItem"></span>
+                    <span class="hamburgerMenuItem"></span>
+
+                </div>
+
+
+
+                <div class="navEnd">
+
+                    <div class="navBarSearch">
+                    
+                        <input type="text" placeholder="Search..." id="searchInput">
+
+                        <div class="">
+                            <button href="" class="searchButton" onclick="searchButtonFunction()">
+                                <img src="./Icons/white search.png" alt="" class="searchIcon">
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div class="userButton">
+                        <a href="./index10.html">
+                            <img src="./Icons/white user icon.png" alt="" class="userIcon">
+                        </a>
+                    </div>
+
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <section>
+        
+        <div class="mainPartOfTheSection">
+
+            <div class="center">
+
+                <div class="purchases">
+
+                    <div class="centerForContent">
+
+                        <div class="centerForContent2">
+
+                            <p class="basicText">Pay with</p>
+
+                            <div class="imageRow">
+
+                                <a href="">
+                                    <img src="./Icons/visa icon2.png" alt="" class="visaIcon">
+                                </a>
+
+                                <a href="">
+                                    <img src="./Icons/mastercard icon2.png" alt="" class="mastercardIcon">
+                                </a>
+
+                                <a href="">
+                                    <img src="./Icons/AMEX icon2.png" alt="" class="amexIcon">
+                                </a>
+
+                                <a href="">
+                                    <div class="revolutBorders">
+                                        <img src="./Icons/revolut icon3.png" alt="" class="revolutIcon">
+                                    </div>
+                                </a>
+
+                                <a href="">
+                                    <img src="./Icons/discover icon3.png" alt="" class="discoverIcon">
+                                </a>
+
+                            </div>
+
+                            <div class="inputRow2">
+
+                                <div>
+                                    <p class="basicText2">Name on card</p>
+                                    <input type="text" name="" id="cardHolderName" placeholder="Card holder name" required>
+                                </div>
+
+                                <div>
+                                    <p class="basicText2">Card number</p>
+                                    <input type="text" name="" id="cardNumber" oninput="formatCardNumber(this)" maxlength="19" placeholder="****  ****  ****  ****" required>
+                                </div>
+
+                            </div>
+
+
+                            <div class="inputRow3">
+
+                                <div class="">
+                                    <p class="basicText3">Exp Date</p>
+                                    <input type="date" name="" id="expDate" lang="en" required>
+                                </div>
+
+                                <div class="">
+                                    <p class="basicText3">CVV2</p>
+                                    <input type="text" name="" id="cvv2" maxlength="3" placeholder="###" required>
+                                </div>
+
+                            </div>
+
+                            <div class="centerForButton">
+                                <button href="" class="payment">Pay <p id="sumOfThePayment"></p>$</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <script src="./index2.js" defer></script>
+    <script src="./index7.js" defer></script>
+    <script src="./index13.js" defer></script>
+</body>
+</html>

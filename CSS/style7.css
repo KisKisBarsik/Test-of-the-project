@@ -1,0 +1,1384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navColumn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
+}
+
+
+
+.navA {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: blueviolet;
+    border: 2px solid transparent;
+    border-radius: 0px 30px 0px 30px;
+
+    padding: 20px;
+    margin: 0px 60px 0px 0px;
+}
+
+
+
+.navA:hover {
+    border-color: blueviolet;
+}
+
+
+
+.n1 {
+    margin-left: 50px;
+}
+
+
+.n4 {
+    color: white;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+}
+
+
+
+.hamburgerMenu {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+.hamburgerMenuItem {
+    display: block;
+    align-items: center;
+    width: 64px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+    background-color: blueviolet;
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+.navEnd {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+
+
+.navBarSearch {
+    display: flex;
+    align-items: center;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    
+    padding: 5px 7px 5px 10px;
+    margin-left: 3.6%;
+}
+
+
+
+#searchInput {
+    max-width: 360px;
+    height: 60px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+
+    padding-left: 20px;
+    margin-right: 12px;
+}
+
+
+
+.searchButton {
+    background-color: blueviolet;
+    border-radius: 30px;
+    border: 0px;
+
+    padding: 6px 4px 4px 7px;
+}
+
+
+
+.searchButton:hover {
+    background-color: rgb(132, 0, 255);
+}
+
+
+
+.searchIcon {
+    width: 45px;
+
+    margin-right: 3px;
+}
+
+
+
+.userIcon {
+    width: 52px;
+    background-color: blueviolet;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+
+    padding: 5px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mainPartOfTheSection {
+    width: 100%;
+    height: 745px;
+    background-color: blueviolet;
+    border-radius: 70px 70px 0px 0px;
+
+    margin-top: 25px;
+    padding-top: 32px;
+}
+
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.purchases {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 706px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 2px 50px 2px 50px;
+
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+.navBarForSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+    height: 140px;
+    background-color: blueviolet;
+    border-radius: 2px 50px 2px 30px;
+}
+
+
+
+.shoppingBagIconDiv {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.numberOfGoods {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    margin: 0px 0px 0px 20px;
+}
+
+
+
+.shoppingBagIcon {
+    width: 60px;
+    margin: 0px 0px 0px 35px;
+}
+
+
+
+.buyButton {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(83, 83, 83);
+    width: 150px;
+
+    padding: 10px 0px 10px 0px;
+    margin: 0px 42px 0px 0px;
+}
+
+
+
+.buyButton:hover {
+    background-color: rgb(132, 0, 255);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.centerContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 1100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+
+
+.columnN1 {
+    display: flex;
+    flex-direction: row;
+    scroll-snap-align: start;
+}
+
+
+
+.nothing {
+    display: block;
+    margin-top: 265px;
+}
+
+
+
+.centerNothing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nothingText {
+    font-size: 36px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(126, 0, 243);
+}
+
+
+
+.contentOfOrder1 {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    border-radius: 33px;
+    background-color: blueviolet;
+
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+.hiddeT, .hiddeT1, .hiddeT2, .hiddeT3, .hiddeT4, .hiddeT5, .hiddeT6, .hiddeT7, .hiddeT8, .hiddeT9, .hiddeT10, .hiddeT11, .hiddeT12, .hiddeT13, .hiddeT14, .hiddeT15, .hiddeT16, .hiddeT17, .hiddeT18, .hiddeT19, .hiddeT20, .hiddeT21, .hiddeT22, .hiddeT23, .hiddeT24, .hiddeT25, .hiddeT26 {
+    display: none;
+}
+
+
+.order1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 185px;
+    background-color: white;
+    border-radius: 30px;
+    border: 3px solid blueviolet;
+}
+
+
+
+.gamingPc {
+    width: 140px;
+}
+
+
+
+.PcFor3dModeling {
+    width: 235px;
+    border: 5px solid white;
+    border-radius: 30px;
+}
+
+
+
+.workPC {
+    width: 180px;
+}
+
+
+
+.textToPurchases {
+    max-width: 330px;
+    margin-left: 12px;
+}
+
+
+
+.textToPurchases2 {
+    max-width: 330px;
+    margin-left: 20px;
+}
+
+
+
+.closeIconDiv {
+    margin: 0px 20px 135px 0px;
+}
+
+
+
+.crossButton {
+    background-color: blueviolet;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.closeIcon {
+    width: 25px;
+}
+
+
+
+.mainText {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    margin-bottom: 5px;
+}
+
+
+
+.description {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+
+.price {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 1920px) {
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 787px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+    
+    
+    
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 955px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+    
+    
+    
+    .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1880px) {
+
+    .navA {
+        font-size: 36px;
+        padding: 20px;
+        margin: 0px 30px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #searchInput {
+        font-size: 30px;
+    }
+
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding: 0px 0px 20px 0px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1792px) {
+
+    .navA {
+        font-size: 30px;
+        padding: 20px;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #searchInput {
+        font-size: 26px;
+    }
+
+    .pcIcon {
+        width: 250px;
+    }
+
+    .pcIcon2 {
+        width: 230px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1688px) {
+
+    .navA {
+        font-size: 24px;
+        padding: 20px;
+        margin: 0px 15px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pcIcon {
+        display: none;
+    }
+
+    .pcIcon2 {
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1460px) {
+
+    .navA {
+        font-size: 24px;
+        padding: 20px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #searchInput {
+        width: 280px;
+        font-size: 20px;
+    }
+
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 855px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+
+    .purchases {
+        width: 900px;
+    }
+
+    .navBarForSection {
+        width: 900px;
+    }
+
+    .centerNothing {
+        margin: 0px 0px 0px 40px;
+    }
+
+    .columnN1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1350px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 96.7%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 5px 30px 5px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 905px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1286px) and (max-height: 800px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 94.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 5px 30px 5px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mainPartOfTheSection {
+        height: 684px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1131px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 96.2%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 5px 30px 5px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mainPartOfTheSection {
+        flex-wrap: wrap;
+        height: 907px;
+    }
+
+
+
+    .aboutOurCompanyText {
+        font-size: 26px;
+    }
+
+
+
+    .aboutOurCompanyText2 {
+        font-size: 20px;
+    }
+
+
+
+    .orderPc {
+        width: 320px;
+        background-color: blueviolet;
+        border: none;
+    
+        margin: 60px 0px 0px 0px;
+    }
+    
+    
+    
+    .aButton {
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 2px solid white;
+        border-radius: 30px;
+        background-color: white;
+        color: rgb(104, 104, 104);
+        width: 400px;
+    
+        padding: 7px 70px 7px 70px;
+    }
+    
+    
+    
+    .aButton:hover {
+        border: 3px solid white;
+        background-color: rgb(132, 0, 255);
+        color: white;
+    }
+
+    .purchases {
+        width: 700px;
+    }
+
+    .navBarForSection {
+        width: 700px;
+    }
+
+    .centerNothing {
+        margin: 0px 0px 0px 40px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 948px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 87%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .navBarSearch {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .pcIcon {
+        display: none;
+    }
+
+    .pcIcon2 {
+        display: none;
+    }
+
+    .mainPartOfTheSection {
+        height: 644px;
+    }
+
+    .firstPropose {
+        margin: 0px 30px 0px 30px;
+    }
+
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 800px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+
+    .textInstruction {
+        font-size: 24px;
+    }
+
+    .textInstruction2 {
+        font-size: 20px;
+    }
+
+    #describingOfCustomPc {
+        width: 600px;
+    }
+
+    #describingOfCustomPc {
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 806px) {
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 800px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+
+    .purchases {
+        width: 600px;
+    }
+
+    .navBarForSection {
+        width: 600px;
+    }
+
+    .centerNothing {
+        margin: 0px 40px 0px 40px;
+    }
+
+    .hiddeT, .hiddeT2, .hiddeT3, .hiddeT4, .hiddeT5, .hiddeT6, .hiddeT7, .hiddeT8, .hiddeT9, .hiddeT10, .hiddeT11, .hiddeT12, .hiddeT13, .hiddeT14, .hiddeT15, .hiddeT16, .hiddeT17, .hiddeT18, .hiddeT19, .hiddeT20, .hiddeT21, .hiddeT22, .hiddeT23, .hiddeT24, .hiddeT25, .hiddeT26, .hiddeT27 {
+        scroll-snap-align: start;
+    }
+
+    .contentOfOrder1 {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 400px;
+        padding: 10px 0px 0px 0px;
+        margin: 75px 0px 75px 0px;
+    }
+
+    .textToPurchases {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .textToPurchases2 {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .closeIconDiv {
+        margin: 0px 0px 0px 280px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 778px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 85.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .navBarSearch {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .pcIcon {
+        display: none;
+    }
+
+    .pcIcon2 {
+        display: none;
+    }
+
+    .firstPropose {
+        margin: 0px 30px 0px 30px;
+    }
+
+    .mainPartOfTheSection {
+        height: 800px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 744px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 83.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .mainPartOfTheSection {
+        height: 800px;
+    }
+
+    .textInstruction {
+        font-size: 20px;
+    }
+
+    .textInstruction2 {
+        font-size: 16px;
+    }
+
+    #describingOfCustomPc {
+        width: 400px;
+    }
+
+    .purchases {
+        width: 400px;
+    }
+
+    .navBarForSection {
+        width: 400px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 642px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 81.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .centerNothing {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .contentOfOrder1 {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        height: 400px;
+        padding: 10px 0px 0px 0px;
+        margin: 75px 0px 75px 0px;
+    }
+
+    .textToPurchases {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .textToPurchases2 {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .closeIconDiv {
+        margin: 0px 0px 0px 240px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 570px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 79.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .orderPc {
+        width: 200px;
+        background-color: blueviolet;
+        border: none;
+    
+        margin: 60px 0px 0px 0px;
+    }
+    
+    
+    
+    .aButton {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 2px solid white;
+        border-radius: 30px;
+        background-color: white;
+        color: rgb(104, 104, 104);
+        width: 200px;
+    
+        padding: 7px 70px 7px 70px;
+    }
+    
+    .aButton:hover {
+        border: 3px solid white;
+        background-color: rgb(132, 0, 255);
+        color: white;
+    }
+
+    #describingOfCustomPc {
+        width: 300px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 525px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 76.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+
+
+    .orderPc {
+        display: flex;
+        background-color: blueviolet;
+        border: none;
+    
+        margin: 20px 0px 0px 0px;
+    }
+    
+    
+    
+    .aButton {
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border: 2px solid white;
+        border-radius: 30px;
+        background-color: white;
+        color: rgb(104, 104, 104);
+        width: 400px;
+    
+        padding: 7px 0px 7px 0px;
+    }
+    
+    
+    
+    .aButton:hover {
+        border: 3px solid white;
+        background-color: rgb(132, 0, 255);
+        color: white;
+    }
+
+    .purchases {
+        width: 300px;
+    }
+
+    .navBarForSection {
+        width: 300px;
+    }
+
+    .centerNothing {
+        margin: 0px 40px 0px 40px;
+    }
+
+    .contentOfOrder1 {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        height: 430px;
+        padding: 5px 0px 0px 0px;
+        margin: 75px 0px 75px 0px;
+    }
+
+    .textToPurchases {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .textToPurchases2 {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .closeIconDiv {
+        margin: 0px 0px 0px 200px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 453px) {
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 1200px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+
+    #describingOfCustomPc {
+        width: 200px;
+        height: 300px;
+    }
+    
+}

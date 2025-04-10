@@ -1,0 +1,1137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navColumn {
+    display: flex;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+
+
+.navA {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: blueviolet;
+    border: 2px solid transparent;
+    border-radius: 0px 30px 0px 30px;
+
+    padding: 20px;
+    margin: 0px 60px 0px 0px;
+}
+
+
+
+.navA:hover {
+    border-color: blueviolet;
+}
+
+
+.n1 {
+    margin-left: 50px;
+}
+
+
+.n3 {
+    color: white;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+}
+
+
+
+.hamburgerMenu {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+.hamburgerMenuItem {
+    display: block;
+    align-items: center;
+    width: 64px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+    background-color: blueviolet;
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+.navEnd {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+
+
+.navBarSearch {
+    display: flex;
+    align-items: center;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    
+    padding: 5px 7px 5px 10px;
+    margin-left: 3.6%;
+}
+
+
+
+#searchInput {
+    width: 360px;
+    height: 60px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+
+    padding-left: 20px;
+    margin-right: 12px;
+}
+
+
+
+.searchButton {
+    background-color: blueviolet;
+    border-radius: 30px;
+    border: 0px;
+
+    padding: 6px 4px 4px 7px;
+}
+
+
+
+.searchButton:hover {
+    background-color: rgb(132, 0, 255);
+}
+
+
+
+.searchIcon {
+    width: 45px;
+
+    margin-right: 3px;
+}
+
+
+
+.userIcon {
+    width: 52px;
+    background-color: blueviolet;
+    border: 3px solid blueviolet;
+    border-radius: 50px;
+
+    padding: 5px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mainPartOfTheSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 776px;
+    background-color: blueviolet;
+    border-radius: 70px 70px 0px 0px;
+
+    margin-top: 25px;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.proposeNumber1, .proposeNumber2, .proposeNumber3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 380px;
+    background-color: rgb(241, 241, 241);
+    margin: 0px 40px 0px 40px;
+    border: 4px solid rgb(241, 241, 241);
+    border-radius: 50px;
+
+    text-decoration: none;
+}
+
+
+.proposeNumber1:hover, .proposeNumber2:hover, .proposeNumber3:hover {
+    margin-top: 30px;
+}
+
+
+
+.proposeNumber1 {
+    padding: 5px 10px 30px 10px;
+}
+
+
+.proposeNumber2 {
+    padding: 20px 22px 32px 22px;
+}
+
+
+.proposeNumber3 {
+    padding: 38px 20px 23px 20px;
+}
+
+
+.proposeIcon1 {
+    width: 330px;
+}
+
+
+.proposeIcon2 {
+    width: 320px;
+    padding-bottom: 22px;
+}
+
+
+.proposeIcon3 {
+    width: 280px;
+    padding-bottom: 25px;
+}
+
+
+.textProposeService {
+    color: blueviolet;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .mainPartOfTheSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 787px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+    
+    
+    
+    .center {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .textIntoduction {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 955px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+    
+    
+    
+    .center {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1880px) {
+
+    .navA {
+        font-size: 36px;
+        padding: 20px;
+        margin: 0px 30px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #searchInput {
+        font-size: 30px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1750px) {
+
+    .navA {
+        font-size: 30px;
+        padding: 20px;
+        margin: 0px 20px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #searchInput {
+        font-size: 26px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1600px) {
+
+    .navA {
+        font-size: 24px;
+        padding: 20px;
+        margin: 0px 15px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        margin: 0px 15px 0px 15px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1460px) {
+
+    .navA {
+        font-size: 24px;
+        padding: 20px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .n1 {
+        margin-left: 40px;
+    }
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #searchInput {
+        width: 280px;
+        font-size: 20px;
+    }
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        margin: 0px 7px 0px 7px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1350px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 96.7%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 5px 30px 5px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        margin: 0px 5px 0px 5px;
+    }
+
+
+
+    .proposeNumber1 {
+        padding: 15px 5px 15px 5px;
+    }
+
+    .proposeIcon1 {
+        width: 250px;
+    }
+
+
+
+    .proposeNumber2 {
+        padding: 17.5px 5px 17.5px 5px;
+    }
+
+    .proposeIcon2 {
+        width: 250px;
+    }
+
+
+
+    .proposeNumber3 {
+        padding: 45px 5px 15px 5px;
+    }
+
+    .proposeIcon3 {
+        width: 200px;
+    }
+
+
+
+    .textProposeService {
+        width: 280px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1286px) and (max-height: 800px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 94.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 5px 30px 5px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mainPartOfTheSection {
+        height: 644px;
+    }
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        margin: 0px 2.5px 0px 2.5px;
+    }
+
+
+
+    .proposeNumber1 {
+        padding: 15px 5px 15px 5px;
+    }
+
+    .proposeIcon1 {
+        width: 250px;
+    }
+
+
+
+    .proposeNumber2 {
+        padding: 17.5px 5px 17.5px 5px;
+    }
+
+    .proposeIcon2 {
+        width: 250px;
+    }
+
+
+
+    .proposeNumber3 {
+        padding: 45px 5px 15px 5px;
+    }
+
+    .proposeIcon3 {
+        width: 200px;
+    }
+
+
+
+    .textProposeService {
+        width: 280px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1286px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 96.7%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 5px 30px 5px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        margin: 0px 2.5px 0px 2.5px;
+    }
+
+
+
+    .proposeNumber1 {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .proposeIcon1 {
+        width: 200px;
+    }
+
+
+
+    .proposeNumber2 {
+        padding: 17.5px 0px 17.5px 0px;
+    }
+
+    .proposeIcon2 {
+        width: 200px;
+    }
+
+
+
+    .proposeNumber3 {
+        padding: 45px 0px 15px 0px;
+    }
+
+    .proposeIcon3 {
+        width: 150px;
+    }
+
+
+
+    .textProposeService {
+        width: 245px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1198px) {
+
+    .center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        margin: 10px 2.5px 10px 2.5px;
+    }
+
+
+
+    .proposeNumber1 {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .proposeIcon1 {
+        width: 150px;
+    }
+
+
+
+    .proposeNumber2 {
+        padding: 8px 0px 8px 0px;
+    }
+
+    .proposeIcon2 {
+        width: 150px;
+    }
+
+
+
+    .proposeNumber3 {
+        padding: 10px 0px 5px 0px;
+    }
+
+    .proposeIcon3 {
+        width: 120px;
+    }
+
+
+
+    .textProposeService {
+        width: 205px;
+    }
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 825px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1131px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 96.2%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 5px 30px 5px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mainPartOfTheSection {
+        height: 824px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 936px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 87%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .navBarSearch {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mainPartOfTheSection {
+        height: 824px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 806px) {
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 1200px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 778px) {
+
+    .navColumn {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 85.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+
+    .navA {
+        margin: 0;
+    }
+
+    .navText.active {
+        left: 0;
+    }
+
+    .navBarSearch {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburgerMenu.active .hamburgerMenuItem:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mainPartOfTheSection {
+        height: 1200px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 730px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 83.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 642px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 81.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 570px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 79.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 525px) {
+
+    .navText {
+        display: flex;
+        position: fixed;
+        left: -120%;
+        top: 140px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        color: white;
+        width: 76.5%;
+        text-align: center;
+        transition: 0.3s;
+
+        padding: 30px 40px 30px 40px;
+        border-radius: 70px;
+        margin: 0px 15px 0px 15px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 453px) {
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        margin: 10px 2.5px 10px 2.5px;
+    }
+
+
+
+    .proposeNumber1 {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .proposeIcon1 {
+        width: 100px;
+    }
+
+
+
+    .proposeNumber2 {
+        padding: 8px 0px 8px 0px;
+    }
+
+    .proposeIcon2 {
+        width: 100px;
+    }
+
+
+
+    .proposeNumber3 {
+        padding: 10px 0px 5px 0px;
+    }
+
+    .proposeIcon3 {
+        width: 90px;
+    }
+
+
+
+    .textProposeService {
+        width: 195px;
+    }
+    
+    .mainPartOfTheSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 1100px;
+        background-color: blueviolet;
+        border-radius: 70px 70px 0px 0px;
+    
+        margin-top: 25px;
+        padding-top: 0px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 415px) {
+
+    .proposeNumber1, .proposeNumber2, .proposeNumber3 {
+        width: 280px;
+    }
+    
+}
